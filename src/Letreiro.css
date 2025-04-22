@@ -1,0 +1,10 @@
+.letreiro{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.texto{
+    font-size: 100px;
+    color: rgb(227, 22, 152);
+    font-weight: bold;
+}
