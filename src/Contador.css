@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .total-section {
+    text-align: center;
+  }
+  
+  .total-section h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .total-section button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .total-section .valor-total {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    width: 50px;
+    margin: 0 auto;
+    font-size: 25px; 
+    color: rgb(255, 0, 0);
+  }
+  
+  .section {
+    display: flex;
+    gap: 100px;
+  }
+  
+  .contador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .contador button {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    font-size: 18px;
+  }
+  
+  .btn-increment {
+    background-color: rgb(40, 167, 69);
+    color: rgb(255, 255, 255);
+  }
+  
+  .btn-decrement {
+    background-color: rgb(219, 54, 70);
+    color: rgb(255, 255, 255);
+  }
+  
+  .contador p {
+    margin: 0;
+  }
+  
+  .contador p:first-of-type {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .contador .valor {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    width: 50px;
+    text-align: center;
+    font-size: 25px; 
+    color: rgb(255, 0, 0);
+  }
