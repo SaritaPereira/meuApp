@@ -1,0 +1,77 @@
+.component-container {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin: 5px;
+    background-color: rgb(0, 123, 255);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(0, 86, 179);
+  }
+  
+  input {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .moving-dot-container {
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    border: 1px solid rgb(204, 204, 204);
+  }
+  
+  .moving-dot {
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .shape-editor-shape {
+    position: absolute;
+    background: rgb(128, 0, 128);
+    width: 20px;
+    height: 20px;
+  }
+  
+  .shape-editor-shape.circle {
+    border-radius: 50%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  img {
+    max-width: 200px;
+    margin-top: 10px;
+  }
+  
+  h2, h3, h4 {
+    margin: 10px 0;
+  }
