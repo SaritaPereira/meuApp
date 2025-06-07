@@ -6,8 +6,7 @@ import Atv02 from "./Atividade 2/Atv02";
 import Atv03 from "./Atividade 3/Atv03";
 import Atv04 from "./Atividade 4/Atv04";
 import Atv05 from "./Atividade 5/Atv5";
-import Atv06 from "./Atividade 6/Atv6";
-
+import Atv06 from "./Atividade 6/front/App";
 export default function minhasRotas(){
     return(
         <BrowserRouter>
