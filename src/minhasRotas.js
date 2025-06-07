@@ -18,7 +18,7 @@ export default function minhasRotas(){
             <Route path="/atv03" element= {<Atv03/>} />
             <Route path="/atv04" element= {<Atv04/>} />
             <Route path="/atv05" element= {<Atv05/>} />
-            <Route path="/atv06" element= {<Atv06/>} />
+            <Route path="/atv06/front/App" element= {<Atv06/>} />
         </Routes>
         </BrowserRouter>
     );
